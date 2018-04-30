@@ -63,6 +63,7 @@
     <script src="js/app/models/Negociacao.js"></script>
     <script>
         var negociacao = new Negociacao(new Date, 100, 50);
+        console.log(Object.isFrozen(negociacao));
         console.log(negociacao);
     </script>
 </html>
